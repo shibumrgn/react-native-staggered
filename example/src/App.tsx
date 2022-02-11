@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import ReactNativeStaggeredModule, { Counter } from 'react-native-staggered'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(ReactNativeStaggeredModule)
   })
 
   return <Counter />
